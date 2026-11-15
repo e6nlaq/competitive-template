@@ -1728,6 +1728,10 @@ struct zat {
     }
 };
 
+inline constexpr bool inrange(const ll x, const ll y, const ll h, const ll w) noexcept {
+    return 0 <= x && x < h && 0 <= y && y < w;
+}
+
 #endif
 
 /* #endregion */

@@ -28,7 +28,7 @@
 using namespace std;
 
 // ローカル環境チェック
-#if __has_include("./cpp-dump/cpp-dump.hpp")
+#if __has_include("cpp-dump/cpp-dump.hpp")
 #define LOCAL
 #define _GLIBCXX_DEBUG
 #endif
@@ -39,7 +39,7 @@ using namespace atcoder;
 #endif
 
 #ifdef LOCAL
-#include "./debug.hpp"
+#include "debug.hpp"
 
 namespace cp = cpp_dump;
 
